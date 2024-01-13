@@ -1,7 +1,7 @@
 # eyecare-ml-models
 
-pip install pandas      
-pip install scikit-learn
-pip install matplotlib 
-pip install flask
-pip install flask_cors
+<br>pip install pandas
+<br>pip install scikit-learn
+<br>pip install matplotlib 
+<br>pip install flask
+<br>pip install flask_cors
