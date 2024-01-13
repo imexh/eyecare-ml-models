@@ -91,8 +91,7 @@ def execute_model(data_frame):
                            'Irritation', 'Poor focusing', 'Double Vision', 'Status of the csv']
     encoded_data = encode_categorical_columns(data, categorical_columns)
 
-    # TODO: encoded_data or data???
-    X_train, X_test, y_train, y_test, = split_data(data)
+    X_train, X_test, y_train, y_test, = split_data(encoded_data)
 
     models = [
         ("Logistic Regression", LogisticRegression(max_iter=1000)),
@@ -106,7 +105,7 @@ def execute_model(data_frame):
         train_model(model, X_train, y_train)
         # TODO: Uncomment to plot the graphs
         # evaluate_model(model, X_test, y_test)
-        predicted_result = predict_new_data(model, df)
+        predicted_result = predict_new_data(model, data_frame)
 
     # TODO: Return result of the most accurate model only
     return predicted_result
