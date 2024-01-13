@@ -19,6 +19,9 @@ app = Flask(__name__)
 CORS(app)
 
 
+# 0 Female/No
+# 1 Male/Yes
+
 # Load dataset
 def load_data(file_path):
     return pd.read_csv(file_path)
