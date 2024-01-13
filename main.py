@@ -126,7 +126,7 @@ def calculateProbability():
     if inp is None:
         return jsonify({"error": "Data parameter is missing"}), 400
 
-    inp = [int(num) for num in inp.split(',')]
+    inp = [int(float(num)) if float(num).is_integer() else float(num) for num in inp.split(',')]
 
     columns = ['Age', 'Gender', 'Average number of hours you spend in front of a screen a day?',
                'Do you use contact lenses?', 'Do you have a history of eye disease and treatment?',
