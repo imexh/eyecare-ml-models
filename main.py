@@ -41,8 +41,8 @@ def calculateProbability():
 
 
 # TODO: Comment this when running main
-if __name__ == "__main__":
-    app.run(debug=True)
+# if __name__ == "__main__":
+#     app.run(debug=True)
 
 # TODO: Comment this when running flask
 # if __name__ == "__main__":
