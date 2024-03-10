@@ -40,11 +40,11 @@ def calculateProbability():
         return jsonify({"probability": 0.0})
 
 
-# TODO: Comment this if running main
+# TODO: Comment this when running main
 # if __name__ == "__main__":
     # app.run(debug=True)
 
-# TODO: Comment this if running flask
+# TODO: Comment this when running flask
 # if __name__ == "__main__":
 #     inp = [27, 0, 3, 0, 0, 0, 1, 3, 3, 3, 60, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 1]
 #
