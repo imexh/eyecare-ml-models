@@ -6,7 +6,7 @@ from tensorflow.keras.models import load_model
 app = Flask(__name__)
 CORS(app)
 
-loaded_model = load_model("models/CVS_Feedforward.h5")
+loaded_model = load_model("models/CVS_Boostrap_Feedforward.h5")
 
 
 @app.route("/")
