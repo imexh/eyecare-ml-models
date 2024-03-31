@@ -11,7 +11,7 @@ loaded_model = load_model("models/CVS_Feedforward.h5")
 
 @app.route("/")
 def index():
-    return "Welcome to Eye Care ML Models service!!"
+    return "Welcome to Eye Care ML Models service!!!"
 
 
 @app.route("/model/prediction", methods=["POST"])
