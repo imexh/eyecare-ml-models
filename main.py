@@ -40,7 +40,7 @@ def calculateProbability():
         return jsonify({"probability": 0.0})
 
 
-# TODO: Comment this when running main
+# TODO: Comment this when running the main
 # if __name__ == "__main__":
 #     app.run(debug=True)
 if __name__ == '__main__':
